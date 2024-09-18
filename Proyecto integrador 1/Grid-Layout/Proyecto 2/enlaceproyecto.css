@@ -1,0 +1,24 @@
+*{
+	text-wrap: pretty;
+}
+
+body{
+	background: black;
+}
+.cont{
+	margin: auto;
+	margin-top: 50px;
+	border: 4px solid rgb(219, 219, 219);
+	background: grey;
+	width: 50%;
+	color: white;
+	
+}
+
+.imagen1{
+	float: left;
+	width: 50%;
+	margin-right: 15px;
+	outline: 3px solid rgb(220, 220, 220);
+
+}

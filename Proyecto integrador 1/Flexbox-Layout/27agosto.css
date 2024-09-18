@@ -1,0 +1,95 @@
+/*propiedades de texto*/
+*{
+    font-family: Arial, sans-serif;
+}
+
+.Titulo,.parrafo,h2{
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+    text-wrap: pretty;
+    color: rgb(213, 213, 213);
+}
+.parrafo{
+    margin-top: 20px;
+}
+p{
+    color: rgb(213, 213, 213);
+    text-wrap: pretty;
+}
+
+
+/*coloreado y diseño*/
+body{
+    margin: 0;
+    background-color: rgb(17, 17, 17);
+}
+article{
+    border-radius: 15px;
+    background-color: rgb(24, 24, 24);
+}
+article:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+}
+
+
+/*flexbox*/
+.contenedor{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.imagen{
+    padding: 0;
+    margin: 20px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    text-align: center;
+}
+
+/*posicionamiento de la imagen*/
+img{
+    margin-top: 10px;
+    padding: 0;
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+/*footer*/
+footer{
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+
+/*mediaqueries (adaptamiento a distintos tamaños)*/
+@media (min-width: 600px) and (max-width: 900px) {
+    .contenedor {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imagen {
+        flex-basis: 45%; /* Cada imagen ocupará el 45% del ancho */
+        margin: 10px; /* Margen alrededor de las imágenes para crear espacio */
+    }
+}
+
+@media (max-width: 599px) {
+    .contenedor {
+        flex-direction: column;
+    }
+    
+}
+
+
+

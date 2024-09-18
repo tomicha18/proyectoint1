@@ -1,0 +1,27 @@
+body{
+    background-color: black !important; 
+    margin: 0;}
+
+.tarjeta{
+    margin:auto;
+    margin-top: 50px;
+    height: 550px;
+    width: 400px;
+    background:linear-gradient(transparent,rgba(251, 251, 251, 0.95));
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px whitesmoke;
+}
+.imagenn{
+    height: 400px;
+    width: 100%;
+    background-image:url("/Grid-Layout/Proyecto 1/assets/fotomia.jpg");
+    background-size:cover;
+    border-radius: 5%;
+}
+.nombre, .oficio,.fulbo{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    color: rgb(112, 112, 112);
+}
